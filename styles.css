@@ -1,0 +1,263 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+h1, h2, h3 {
+    color: white;
+}
+
+/* Header Styling */
+header {
+    background-color: #0f0f0f;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+#home .hero {
+    background-color: #080808;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#home .hero h2 {
+    font-size: 36px;
+}
+
+#home .hero p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Courses Section */
+#courses {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: black;
+}
+
+#courses h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.course-card {
+    background-color: #a5c109;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    width: 250px;
+    display: inline-block;
+    text-align: left;
+}
+
+.course-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.course-card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.course-card button {
+    background-color: #0779eb;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.course-card button:hover {
+    background-color: #0ce84b;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    background-color: black;
+    text-align: center;
+    color: black;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact button {
+    background-color: #34495e;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#contact button:hover {
+    background-color: #ea0606;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(160, 166, 166);
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+h1{
+    color:rgb(250, 249, 249) ;
+
+}
+.slider-container {
+    position: relative;
+    max-width: 100%;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider img {
+    max-width: 100%;
+    display: block;
+    width: 60%;
+    margin-right: 10px; /* Add margin between images */
+}
+
+.slider img:last-child {
+    margin-right: 0; /* Remove margin for the last image */
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+* About Us Section */
+#about-us {
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about-us .about-us-content {
+    background-color: #060606;
+    max-width: 10000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about-us p {
+    font-size: 1.2em;
+}
+
+/* Contact Us Section */
+#contact-us {
+    background-color: #0c0c0c;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact-us .contact-us-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact-us a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#contact-us a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: white;
+    margin-bottom: 20px;
+}
+body{
+    background-color: #060606;
+}
